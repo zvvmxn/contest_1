@@ -17,6 +17,11 @@
 - **기상 데이터**: AWS/ASOS 관측소 기준 시각 단위 기온, 강수량, 습도, 풍속 등
 - 데이터 출처: 기상청, 서울시
 
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![XGBoost](https://img.shields.io/badge/Model-XGBoost-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
+
 ## 🧹 데이터 전처리
 - 결측값: RandomForestRegressor로 예측 후 대체
 - 파생 변수 생성:
